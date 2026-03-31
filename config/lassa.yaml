@@ -1,6 +1,6 @@
 name: lassa
 
-outgroup: pinneo_1969
+outgroup: Pinneo1969
 
 mrbayes:
   nst: 6
