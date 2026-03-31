@@ -1,6 +1,6 @@
 name: sarscov2
 
-  outgroup: NC_004718.3
+outgroup: NC_004718.3
 
 mrbayes:
   nst: mixed
