@@ -23,7 +23,6 @@ nohup.out
 
 # Temporary / generated
 tmp/
-data/tmp_mrbayes/
 results/**/mrbayes/*.ckp
 results/**/mrbayes/*.ckp~
 results/**/mrbayes/*.run*.p
