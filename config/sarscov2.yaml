@@ -3,16 +3,13 @@ name: sarscov2
 outgroup: NC_004718.3
 
 mrbayes:
-  nst: mixed
+  nst: 6
   rates: invgamma
   nruns: 2
   nchains: 4
-  ngen: 2000000
+  ngen: 1000000
   samplefreq: 100
   printfreq: 1000
   diagnfreq: 1000
   burninfrac: 0.25
 
-clock_analysis:
-  enabled: true
-  reference_date: 2010-01-01

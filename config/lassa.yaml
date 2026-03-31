@@ -7,7 +7,7 @@ mrbayes:
   rates: invgamma
   nruns: 2
   nchains: 4
-  ngen: 2000000
+  ngen: 1000000
   samplefreq: 100
   printfreq: 1000
   diagnfreq: 1000
