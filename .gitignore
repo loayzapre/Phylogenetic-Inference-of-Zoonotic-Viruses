@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
+nohup.out
+
+# Temporary / generated
+tmp/
+data/tmp_mrbayes/
+results/**/mrbayes/*.ckp
+results/**/mrbayes/*.ckp~
+results/**/mrbayes/*.run*.p
+results/**/mrbayes/*.run*.t
+results/**/mrbayes/*.parts
+results/**/mrbayes/*.tstat
+results/**/mrbayes/*.vstat
+results/**/mrbayes/*.trprobs
+results/**/mrbayes/*.pstat
+results/**/mrbayes/*.lstat
+
+# IQ-TREE intermediates
+*.bionj
+*.mldist
+*.splits.nex
+*.contree
+*.iqtree
+*.log

@@ -1,0 +1,24 @@
+name: sarscov2
+
+input_fasta: data/interim/sarscov2/sars_combined_renamed.fasta
+metadata: metadata/sarscov2_all_metadata.tsv
+
+alignment:
+  method: mafft
+
+outgroup: SARS_2003
+
+mrbayes:
+  nst: mixed
+  rates: invgamma
+  nruns: 2
+  nchains: 4
+  ngen: 2000000
+  samplefreq: 100
+  printfreq: 1000
+  diagnfreq: 1000
+  burninfrac: 0.25
+
+clock_analysis:
+  enabled: true
+  reference_date: 2010-01-01

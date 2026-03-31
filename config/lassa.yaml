@@ -1,0 +1,20 @@
+name: lassa
+
+input_fasta: data/interim/lassa/lassa_checked.fasta
+metadata: metadata/lassa_metadata.tsv
+
+alignment:
+  method: mafft
+
+outgroup: pinneo_1969
+
+mrbayes:
+  nst: 6
+  rates: invgamma
+  nruns: 2
+  nchains: 4
+  ngen: 2000000
+  samplefreq: 100
+  printfreq: 1000
+  diagnfreq: 1000
+  burninfrac: 0.25
