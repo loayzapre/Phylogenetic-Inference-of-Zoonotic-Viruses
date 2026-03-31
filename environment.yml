@@ -13,3 +13,6 @@ dependencies:
   - matplotlib
   - iqtree
   - mrbayes
+  - r-base
+  - r-ape
+  - r-tidyverse

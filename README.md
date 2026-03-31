@@ -6,7 +6,7 @@ Phylogenetic analysis workflow for investigating the origins and evolution of La
 It is recommended to use conda or mamba to create an isolated environment.
 
     conda env create -f environment.yml
-    conda activate phylo
+    conda activate zoonotic-phylo
 
 Then
 
