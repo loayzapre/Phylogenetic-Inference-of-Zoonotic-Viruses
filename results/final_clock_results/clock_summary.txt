@@ -1,0 +1,25 @@
+Molecular Clock Analysis Summary
+===============================
+Reference Date: 2010-01-01 
+Outgroup Root: NC_004718.3_2003-04-13 
+Number of Human Sequences: 35 
+
+
+Call:
+lm(formula = y_dist ~ x_days, data = df)
+
+Residuals:
+       Min         1Q     Median         3Q        Max 
+-5.125e-04 -2.610e-04 -1.102e-05  2.087e-04  1.312e-03 
+
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 3.648e-02  4.737e-04   77.02   <2e-16 ***
+x_days      2.694e-06  9.518e-08   28.31   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.0003812 on 33 degrees of freedom
+Multiple R-squared:  0.9605,	Adjusted R-squared:  0.9593 
+F-statistic: 801.5 on 1 and 33 DF,  p-value: < 2.2e-16
+

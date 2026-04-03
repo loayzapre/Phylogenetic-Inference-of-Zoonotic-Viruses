@@ -1,0 +1,25 @@
+SARS-CoV-2 Clock Analysis
+Rooted on: NC_004718.3_2003-04-13 
+Regression based on 35 human sequences.
+
+
+Call:
+lm(formula = root_to_tip ~ days_since_ref, data = df)
+
+Residuals:
+       Min         1Q     Median         3Q        Max 
+-5.125e-04 -2.610e-04 -1.102e-05  2.087e-04  1.312e-03 
+
+Coefficients:
+                Estimate Std. Error t value Pr(>|t|)    
+(Intercept)    2.987e-02  7.059e-04   42.31   <2e-16 ***
+days_since_ref 2.694e-06  9.518e-08   28.31   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.0003812 on 33 degrees of freedom
+Multiple R-squared:  0.9605,	Adjusted R-squared:  0.9593 
+F-statistic: 801.5 on 1 and 33 DF,  p-value: < 2.2e-16
+
+
+Estimated Human MRCA Date: 2020-01-05 
